@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Percentage Calculators</h1>
+        <select id="selectCalculator">
+            <option value="xIsWhat%OfY">X is what % of Y?</option>
+            <option value="whatIsY%OfX">What is Y% of X?</option>
+            <option value="xIsY%OfWhat">X is Y% what?</option>
+            <option value="x%ofWhatIsY">X% of what is Y?</option>
+            <option value="y%OfXIsWhat">Y% of X is what?</option>
+        </select>
+        <h4 id="selctionLabel">X is what % of Y?</h4>
+        <form id="calculateForm">
+            <p id="firstLabel"></p>
+            <input type="text" id="numField1">
+            <p id="secondLabel"> is what % of </p>
+            <input type="text" id="numField2">
+            <p id="lastLabel">?</p><br><br>
+            <input type="submit" value="Calculate">
+        </form>
+        <h3 id="resultField"></h3>
+        <script type="text/javascript" src="calc.js"></script>
+    </body>
+</html>
